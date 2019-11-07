@@ -1,0 +1,130 @@
+body {
+  background-color: #f3757c    
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.calc-outer {
+  margin: 108px auto;
+  background-color: #272629;
+    border-radius: 14px;
+    max-width: 390px;
+    min-width: 320px;
+}
+
+.calc-inner {
+  padding: 30px;
+}
+
+.display {
+  min-height: 90px;
+  background-color: #a2af77;
+  margin-bottom: 30px;
+  border-radius: 14px;
+  overflow-wrap: break-word;
+}
+
+.display-text{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 21% 21% 21% 21%;
+  grid-column-gap: calc(16%/3);
+  grid-row-gap: 14px; 
+}
+
+.button {
+  color: #ffffff;
+  background-color: #57595b;
+  border: none;
+  font-size: 42px;
+}
+
+.black {
+  background-color: #140f0f
+}
+
+.orange {
+  background-color: #f1592b
+}
+
+.equals {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.b7 {
+  grid-column-start: 1;
+  grid-row-start:2;
+}
+
+.b8 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.b9 {
+  grid-column-start: 3;
+  grid-row-start:2;
+}
+
+.b4 {
+  grid-column-start: 1;
+  grid-row-start:3;
+}
+
+.b5 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.b6 {
+  grid-column-start: 3;
+  grid-row-start:3;
+}
+
+.b1 {
+  grid-column-start: 1;
+  grid-row-start:4;
+}
+
+.b2 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.b3 {
+  grid-column-start: 3;
+  grid-row-start:4;
+}
+
+.b0 {
+  grid-column-start: 1;
+  grid-row-start:5;
+  grid-column-end: 3;
+}
+
+
